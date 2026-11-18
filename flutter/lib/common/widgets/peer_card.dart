@@ -139,7 +139,7 @@ class _PeerCardState extends State<_PeerCard>
         ? peer.hostname
         : '${peer.username}${peer.username.isNotEmpty && peer.hostname.isNotEmpty ? '@' : ''}${peer.hostname}';
     final greyStyle = TextStyle(
-        fontSize: 11,
+        fontSize: 12,
         color: Theme.of(context).textTheme.titleLarge?.color?.withOpacity(0.6));
     final showNote = _showNote(peer);
 
